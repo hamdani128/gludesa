@@ -8,7 +8,7 @@
         <!-- title -->
         <div class="row page-titles">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="javascript:void(0)">Data Penduduk / Kependudukan</a></li>
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Data Penduduk / Keluarga</a></li>
             </ol>
         </div>
         <!-- content -->
@@ -30,26 +30,55 @@
                                             <a class="dropdown-item"
                                                 href="<?= URLROOT ?>/kependudukan/add_penduduk_lahir">
                                                 <i class="fa fa-plus"></i>
-                                                Penduduk Lahir
+                                                Penduduk Masuk
                                             </a>
                                             <a class="dropdown-item" href="#">
                                                 <i class="fa fa-plus"></i>
-                                                Penduduk Masuk
+                                                Penduduk Sudah Ada
                                             </a>
                                         </div>
                                     </div>
 
                                     <div class="btn-group mb-1">
-                                        <button type="button" class="btn btn-danger btn-xxs">
-                                            <i class="fa fa-trash"></i>
-                                            Hapus Data Terpilih
+                                        <button type="button" class="btn btn-info btn-xxs">
+                                            <i class="fa fa-print"></i>
+                                            Cetak
                                         </button>
                                     </div>
-
+                                    <div class="btn-group mb-1">
+                                        <button type="button" class="btn btn-dark btn-xxs">
+                                            <i class="fa fa-download"></i>
+                                            Unduh
+                                        </button>
+                                    </div>
+                                    <div class="btn-group mb-1">
+                                        <button type="button" class="btn btn-danger btn-xxs">
+                                            <i class="fa fa-download"></i>
+                                            Aksi Data Terpilih
+                                        </button>
+                                        <button type="button"
+                                            class="btn btn-danger btn-xxs dropdown-toggle dropdown-toggle-split"
+                                            data-bs-toggle="dropdown">
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">
+                                                <i class="fa fa-print"></i>
+                                                Cetak Kartu Keluarga
+                                            </a>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="fa fa-search"></i>
+                                                Unduh Kartu Keluarga
+                                            </a>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="fa fa-trash"></i>
+                                                Hapus Data Terpilih
+                                            </a>
+                                        </div>
+                                    </div>
                                     <div class="btn-group mb-1">
                                         <button type="button" class="btn btn-primary btn-xxs">
                                             <i class="fa fa-download"></i>
-                                            Plih Aksi Lainnya
+                                            Pilih Aksi Lainnya
                                         </button>
                                         <button type="button"
                                             class="btn btn-primary btn-xxs dropdown-toggle dropdown-toggle-split"
@@ -57,53 +86,15 @@
                                         </button>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" href="#">
-                                                <i class="fa fa-print"></i>
-                                                Cetak
-                                            </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-download"></i>
-                                                Unduh
-                                            </a>
-                                            <a class="dropdown-item" href="#">
                                                 <i class="fa fa-search"></i>
-                                                Pencarian Spesifik
+                                                Pilihan Kumpulan KK
                                             </a>
                                             <a class="dropdown-item" href="#">
                                                 <i class="fa fa-search"></i>
                                                 Pencarian Program Bantuan
                                             </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-users"></i>
-                                                Pilhan Kumpulan NIK
-                                            </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-search"></i>
-                                                NIK Sementera
-                                            </a>
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-book"></i>
-                                                Log Penduduk
-                                            </a>
                                         </div>
                                     </div>
-
-                                    <div class="btn-group mb-1">
-                                        <button type="button" class="btn btn-dark btn-xxs">
-                                            <i class="fa fa-download"></i>
-                                            Import / Eksport
-                                        </button>
-                                        <button type="button"
-                                            class="btn btn-dark btn-xxs dropdown-toggle dropdown-toggle-split"
-                                            data-bs-toggle="dropdown">
-                                        </button>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#">
-                                                <i class="fa fa-download"></i>
-                                                Ekspor Penduduk
-                                            </a>
-                                        </div>
-                                    </div>
-
                                     <div class="btn-group mb-1">
                                         <button type="button" class="btn btn-info btn-xxs">
                                             <i class="fa fa-sync-alt"></i>
@@ -119,18 +110,11 @@
                             <div class="col-lg-8">
                                 <div class="input-group">
                                     <select class="form-control" name="" id="">
-                                        <option value="">Status Penduduk</option>
-                                        <option value="tetap">Tetap</option>
-                                        <option value="tidak tetap">Tidak Tetap</option>
-                                    </select>
-                                    <select class="form-control" name="" id="">
-                                        <option value="">Status Dasar</option>
-                                        <option value="Hidup">Hidup</option>
-                                        <option value="Mati">Mati</option>
-                                        <option value="Hilang">Hilang</option>
-                                        <option value="Pergi">Pergi</option>
-                                        <option value="Pindah">Pindah</option>
-                                        <option value="Tidak Valid">Tidak Valid</option>
+                                        <option value="">Pilih Status KK</option>
+                                        <option value="KK Aktif">KK Aktif</option>
+                                        <option value="KK Hilang/Pindah/Mati">KK Hilang/Pindah/Mati</option>
+                                        <option value="KK Kosong">KK Kosong</option>
+                                        <option value="No. KK Sementara">No. KK Sementara</option>
                                     </select>
                                     <select class="form-control" name="" id="">
                                         <option value="">Jenis Kelamin</option>

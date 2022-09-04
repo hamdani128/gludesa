@@ -39,5 +39,25 @@ class Kependudukan extends Controller {
         $this->view('pages/kependudukan/penduduk', $data);
     }
 
+    public function keluarga()
+    {
+        $data = [
+            'modul' => 'Kependudukan',
+            'page' => 'keluarga',
+            'title' => 'GluDesa - Keluarga',
+        ];
+        $this->view('pages/kependudukan/keluarga', $data);
+    }
+
+    public function add_penduduk_lahir()
+    {
+        $data = [
+            'modul' => 'Kependudukan',
+            'page' => 'add_penduduk_lahir',
+            'title' => 'GluDesa - Tambah Penduduk Lahir',
+        ];
+        $this->view('pages/kependudukan/add_penduduk_lahir', $data);
+    }
+
 
 }
