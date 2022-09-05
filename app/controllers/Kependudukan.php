@@ -49,6 +49,46 @@ class Kependudukan extends Controller {
         $this->view('pages/kependudukan/keluarga', $data);
     }
 
+    public function rumah_tangga()
+    {
+        $data = [
+            'modul' => 'Kependudukan / Rumah Tangga',
+            'page' => 'rumah_tangga',
+            'title' => 'GluDesa - Rumah Tangga',
+        ];
+        $this->view('pages/kependudukan/rumah_tangga', $data);
+    }
+
+    public function kelompok()
+    {
+        $data = [
+            'modul' => 'Kependudukan / Kelompok',
+            'page' => 'kelompok',
+            'title' => 'GluDesa - Kelompok',
+        ];
+        $this->view('pages/kependudukan/kelompok', $data);
+    }
+
+    public function suplemen()
+    {
+        $data = [
+            'modul' => 'Kependudukan / Suplemen',
+            'page' => 'suplemen',
+            'title' => 'GluDesa - Suplemen',
+        ];
+        $this->view('pages/kependudukan/suplemen', $data);
+    }
+
+    public function calon_pemilih()
+    {
+        $data = [
+            'modul' => 'Kependudukan / Calon Pemilih',
+            'page' => 'Calon Pemilih',
+            'title' => 'GluDesa - Calom Pemilih',
+        ];
+        $this->view('pages/kependudukan/calon_pemilih', $data);
+    }
+
     public function add_penduduk_lahir()
     {
         $data = [

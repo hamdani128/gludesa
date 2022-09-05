@@ -72,7 +72,7 @@
                     <li><a href="<?= URLROOT ?>/kependudukan/keluarga">Keluarga</a></li>
                     <li><a href="<?= URLROOT ?>/kependudukan/rumah_tangga">Rumah Tangga</a></li>
                     <li><a href="<?= URLROOT ?>/kependudukan/kelompok">Kelompok</a></li>
-                    <li><a href="<?= URLROOT ?>/kependudukan/data_suplemen">Data Suplemen</a></li>
+                    <li><a href="<?= URLROOT ?>/kependudukan/suplemen">Data Suplemen</a></li>
                     <li><a href="<?= URLROOT ?>/kependudukan/calon_pemilih">Calon Pemilih</a></li>
                 </ul>
             </li>
