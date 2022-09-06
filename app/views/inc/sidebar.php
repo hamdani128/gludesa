@@ -82,10 +82,10 @@
                     <span class="nav-text">Statistik</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="#l">Statistik Kependudukan</a></li>
-                    <li><a href="#">laporan Bulanan</a></li>
-                    <li><a href="#">Laporan Kelompok Rentan</a></li>
-                    <li><a href="#">Laporan Penduduk</a></li>
+                    <li><a href="<?= URLROOT ?>/statistik/statistik_kependudukan">Statistik Kependudukan</a></li>
+                    <li><a href="<?= URLROOT ?>/statistik/laporan_bulanan">laporan Bulanan</a></li>
+                    <li><a href="<?= URLROOT ?>/statistik/laporan_rentan">Laporan Kelompok Rentan</a></li>
+                    <li><a href="<?= URLROOT ?>/statistik/laporan_penduduk">Laporan Penduduk</a></li>
                 </ul>
             </li>
             <li>
@@ -94,7 +94,7 @@
                     <span class="nav-text">kesehatan</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="ui-accordion.html">Pendataan</a></li>
+                    <li><a href="<?= URLROOT ?>/kesehatan/covid19">Pendataan</a></li>
                     <li><a href="ui-alert.html">Pemantauan</a></li>
                     <li><a href="ui-badge.html">Vaksin</a></li>
                     <li><a href="ui-button.html">Stunting</a></li>
