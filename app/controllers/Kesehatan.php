@@ -22,11 +22,41 @@ class Kesehatan extends Controller {
     }
     public function index(){
         $data = [
-            'modul' => 'Info Desa',
-            'page' => 'Identitas',
-            'title' => 'GluDesa - Indentitas',
+            'modul' => 'Kesehatan / Pendataan (Covid19)',
+            'page' => 'Pendataan',
+            'title' => 'GluDesa - Pendataan',
         ];
-        $this->view('pages/info/indentitas', $data);
+        $this->view('pages/kesehatan/pendataan', $data);
+    }
+
+    public function covid19()
+    {
+        $data = [
+            'modul' => 'Kesehatan / Pendataan (Covid19)',
+            'page' => 'Pendataan',
+            'title' => 'GluDesa - Pendataan',
+        ];
+        $this->view('pages/kesehatan/pendataan', $data);
+    }
+
+    public function pemantauan()
+    {
+        $data = [
+            'modul' => 'Kesehatan / Pemantanuan',
+            'page' => 'Pemantauan',
+            'title' => 'GluDesa - Pemantauan',
+        ];
+        $this->view('pages/kesehatan/pemantauan', $data);
+    }
+
+    public function vaksin()
+    {
+        $data = [
+            'modul' => 'Kesehatan / Vaksin',
+            'page' => 'vaksin',
+            'title' => 'GluDesa - Vaksin',
+        ];
+        $this->view('pages/kesehatan/vaksin', $data);
     }
 
 

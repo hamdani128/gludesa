@@ -95,7 +95,7 @@
                 </a>
                 <ul aria-expanded="false">
                     <li><a href="<?= URLROOT ?>/kesehatan/covid19">Pendataan</a></li>
-                    <li><a href="ui-alert.html">Pemantauan</a></li>
+                    <li><a href="<?= URLROOT ?>/kesehatan/pemantauan">Pemantauan</a></li>
                     <li><a href="ui-badge.html">Vaksin</a></li>
                     <li><a href="ui-button.html">Stunting</a></li>
                 </ul>
