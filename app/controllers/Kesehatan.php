@@ -49,7 +49,7 @@ class Kesehatan extends Controller {
         $this->view('pages/kesehatan/pemantauan', $data);
     }
 
-    public function vaksin()
+    public function vaksincovid19()
     {
         $data = [
             'modul' => 'Kesehatan / Vaksin',
@@ -59,5 +59,15 @@ class Kesehatan extends Controller {
         $this->view('pages/kesehatan/vaksin', $data);
     }
 
+    public function stunting()
+    {
+        $data = [
+            'modul' => 'Kesehatan / Stunting',
+            'page' => 'Stunting',
+            'title' => 'GluDesa - Stuntung',
+        ];
+        $this->view('pages/kesehatan/stunting', $data);
+    }
+    
 
 }

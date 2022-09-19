@@ -96,8 +96,8 @@
                 <ul aria-expanded="false">
                     <li><a href="<?= URLROOT ?>/kesehatan/covid19">Pendataan</a></li>
                     <li><a href="<?= URLROOT ?>/kesehatan/pemantauan">Pemantauan</a></li>
-                    <li><a href="ui-badge.html">Vaksin</a></li>
-                    <li><a href="ui-button.html">Stunting</a></li>
+                    <li><a href="<?= URLROOT ?>/kesehatan/vaksincovid19">Vaksin</a></li>
+                    <li><a href="<?= URLROOT ?>/kesehatan/stunting">Stunting</a></li>
                 </ul>
             </li>
             <li>
@@ -106,10 +106,10 @@
                     <span class="nav-text">Kehadiran</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="#">Jam Kerja</a></li>
-                    <li><a href="#">Hari Libur</a></li>
-                    <li><a href="#">Rekapitulasi</a></li>
-                    <li><a href="#">Pengaduan</a></li>
+                    <li><a href="<?= URLROOT ?>/kehadiran/kehadiran">Jam Kerja</a></li>
+                    <li><a href="<?= URLROOT ?>/kehadiran/kehadiran_hari_libur">Hari Libur</a></li>
+                    <li><a href="<?= URLROOT ?>/kehadiran/rekapitulasi_kehadiran">Rekapitulasi</a></li>
+                    <li><a href="<?= URLROOT ?>/kehadiran/pengaduan">Pengaduan</a></li>
                 </ul>
             </li>
             <li>
@@ -118,10 +118,11 @@
                     <span class="nav-text">Layanan Surat</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="#">Pengaturan Surat</a></li>
-                    <li><a href="#">Cetak Surat</a></li>
-                    <li><a href="#">Arsip Layanan</a></li>
-                    <li><a href="#">Daftar Persyaratan</a></li>
+                    <li><a href="<?= URLROOT ?>/layanansurat/pengaturan_surat">Pengaturan Surat</a></li>
+                    <li><a href="<?= URLROOT ?>/layanansurat/cetak_surat">Cetak Surat</a></li>
+                    <li><a href="<?= URLROOT ?>/layanansurat/permohonan_surat_admin">Permohonan Layanan</a></li>
+                    <li><a href="<?= URLROOT ?>/layanansurat/arsip_keluar_masuk">Arsip Layanan</a></li>
+                    <li><a href="<?= URLROOT ?>/layanansurat/daftar_persyaratan">Daftar Persyaratan</a></li>
                 </ul>
             </li>
             <li>
@@ -130,9 +131,9 @@
                     <span class="nav-text">Skretariat</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="#">Informasi Publik</a></li>
-                    <li><a href="#">Inventaris</a></li>
-                    <li><a href="#">Klasisfikasi Surat</a></li>
+                    <li><a href="<?= URLROOT ?>/sekretariat/informasi_publik">Informasi Publik</a></li>
+                    <li><a href="<?= URLROOT ?>/sekretariat/iventaris_asset"">Inventaris</a></li>
+                    <li><a href=" #">Klasisfikasi Surat</a></li>
                 </ul>
             </li>
             <li>
