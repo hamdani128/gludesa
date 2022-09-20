@@ -1,0 +1,140 @@
+/* -- Font Style - Start -- */
+
+
+/* -- Tablet Responsive -- */
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 45px !important;
+    }
+
+    h2 {
+        font-size: 35px !important;
+    }
+
+    h3 {
+        font-size: 30px !important;
+    }
+
+    h4 {
+        font-size: 22px !important;
+    }
+
+    h5 {
+        font-size: 20px !important;
+    }
+
+    h1 > span {
+        font-size: 45px !important;
+    }
+}
+
+/* -- Phone Responsive -- */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 35px !important;
+    }
+
+    h2 {
+        font-size: 25px !important;
+    }
+
+    h3 {
+        font-size: 23px !important;
+    }
+
+    h4 {
+        font-size: 21px !important;
+    }
+
+    h5 {
+        font-size: 18px !important;
+    }
+
+    h1 > span {
+        font-size: 35px !important;
+    }
+}
+
+/* -- Font Style - End -- */
+
+/*-------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+
+    .container.ct-first{
+        padding: 50px 15px !important;
+    }
+    .container.ct-last{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-top: 0px;
+        padding-bottom: 50px !important;
+    }
+
+    .container.ct-footer{
+        padding-top: 25px !important;
+    }
+
+    .container.ct-error{
+        padding-bottom: 50px !important;
+    }
+
+    .pad-50{
+        padding: 35px !important;
+    }
+
+    .column-left{
+        padding-right: 0px !important;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+      
+      .column-right{
+        padding-right: 0px;
+        padding-left: 0px  !important;
+        padding-top: 35px !important;
+        padding-bottom: 0px;
+    }
+
+    .iframe-lightbox{
+        height: 350px !important;
+      }
+
+}
+
+@media (max-width: 768px){
+
+    .vertical-box{
+        display: block !important;
+    }
+
+    .vb-left {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .vb-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .form-col-single , .form-col-left , .form-col-right{
+        padding-bottom: 15px;
+    }
+      
+    .form-col-left{
+    padding-right: 0px !important;
+    padding-left: 0px;
+    }
+      
+    .form-col-right{
+    padding-right: 0px;
+    padding-left: 0px !important;
+    }
+    
+}
+
+/*-------------------------------------------------------------*/

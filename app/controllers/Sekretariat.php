@@ -46,4 +46,14 @@ class Sekretariat extends Controller {
         $this->view('pages/sekretariat/iventaris', $data);
     }
 
+    public function klasifikasi_surat()
+    {
+        $data = [
+            'modul' => 'Sekretariat - Klasifikasi Surat',
+            'page' => 'klasifikasi_surat',
+            'title' => 'GluDesa - Klasifikasi Surat',
+        ];
+        $this->view('pages/sekretariat/klasifikasi_surat', $data);
+    }
+
 }

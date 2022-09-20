@@ -7,15 +7,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- PAGE TITLE HERE -->
     <title><?= $data['title']; ?></title>
-    <!-- FAVICONS ICON -->
     <link rel="shortcut icon" type="image/png" href="<?= URLROOT ?>/assets/images/favicon.png" />
     <link href="<?= URLROOT ?>/assets/css/style.css" rel="stylesheet">
-    <!-- Sweetalert -->
     <link href="<?= URLROOT ?>/assets/sweetalert/sweetalert2.css" rel="stylesheet">
     <link href="<?= URLROOT ?>/assets/sweetalert/sweetalert2.min.css" rel="stylesheet">
-
 </head>
 
 <body class="vh-100">
@@ -43,19 +39,6 @@
                                             <input type="password" class="form-control" name="password" id="password"
                                                 placeholder="Silahkan isi Password">
                                         </div>
-                                        <!-- <div class="row d-flex justify-content-between mt-4 mb-2">
-                                            <div class="mb-3">
-                                                <div class="form-check custom-checkbox ms-1">
-                                                    <input type="checkbox" class="form-check-input"
-                                                        id="basic_checkbox_1">
-                                                    <label class="form-check-label" for="basic_checkbox_1">Remember my
-                                                        preference</label>
-                                                </div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <a href="page-forgot-password.html">Forgot Password?</a>
-                                            </div>
-                                        </div> -->
                                         <div class="text-center">
                                             <button type="button" class="btn btn-primary btn-block"
                                                 onclick="login_administrator()">Sign Me In</button>

@@ -1,0 +1,9 @@
+@media (max-width: 992px) {
+    .play-pbs{
+        display: none !important;
+    }
+
+    .pbs-overlay > div > div > div.column-right{
+        padding-top: 0px !important;
+    }
+}

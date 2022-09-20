@@ -1,0 +1,9 @@
+@media (max-width: 768px){
+    .title-post{
+        padding: 0px 15px;
+    }
+
+    .featured-image-post > img{
+        height: 400px;
+    }
+}

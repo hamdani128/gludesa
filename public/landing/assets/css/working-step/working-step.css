@@ -1,0 +1,23 @@
+h4.heading-box{
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    z-index: 2;
+}
+
+.hww-box-content{
+    padding-top: 70px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: -35px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.hww-box-content > h4{
+    margin-bottom: 15px;
+}

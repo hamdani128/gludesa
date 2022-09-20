@@ -4,7 +4,7 @@ class Home extends Controller {
     private $homemodel,$TakerWa;
 
     public function __construct(){
-        $timeout = 10;
+        $timeout = 15;
 		$logout_redirect_url = URLROOT . '/users/logout';
 		$timeout = $timeout * 60;
 		if (isset($_SESSION['start_time'])) {

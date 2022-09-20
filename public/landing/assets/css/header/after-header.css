@@ -1,0 +1,23 @@
+.after-header-bg{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.after-header-overlay{
+    background: linear-gradient(90deg, rgba(26, 77, 46, 0.87) 50%, rgba(0, 0, 0, 0.288) 100%);
+}
+
+.breadcrumb > ul > li{
+    margin-right: 15px;
+}
+
+.breadcrumb > ul > li > i{
+    margin-right: 15px;
+}
+
+@media (min-width: 992px){
+    .after-header-bg{
+        background-attachment: fixed;
+    }
+}

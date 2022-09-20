@@ -1,0 +1,15 @@
+.promotion-block-section{
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.pbs-overlay{
+    background: linear-gradient(270deg, rgba(26, 77, 46, 0.87) 50%, rgba(0, 0, 0, 0.288) 100%);
+}
+
+@media (min-width: 992px){
+    .promotion-block-section{
+        background-attachment: fixed;
+    }
+}

@@ -1,0 +1,67 @@
+.services-section{
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 992px){
+    .services-section{
+        background-attachment: fixed;
+    }
+}
+
+.services-section-overlay{
+    background-color: #faf3e3b9;
+}
+
+.services-grid{
+    margin: 0px -15px !important;
+}
+
+.services-box{
+    border-radius: 5px;
+    background-size: cover;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+}
+
+.services-box:hover{
+    background-size: cover;
+    background-position: center;
+}
+
+.inner-services-box{
+    background-color: white;
+}
+
+.inner-services-box:hover , .inner-services-box.first:hover{
+    background-color: #1a4d2e8c;
+}
+
+.inner-services-box.first{
+    background-color: var(--primary-color);
+}
+
+.inner-services-box.first > .content-service-box > h4{
+    color: white !important;
+}
+
+.inner-services-box.first > .content-service-box > p{
+    color: var(--text-white-transparent);
+}
+
+.content-service-box{
+    margin-top: 30px;
+}
+
+.services-box:hover .icon-big-stack{
+    color: var(--accent-color);
+    background-color: var(--border-transparent);
+}
+
+.services-box:hover .content-service-box > h4{
+    color: white;
+}
+
+.services-box:hover .content-service-box > p{
+    color: var(--text-white-transparent);
+}

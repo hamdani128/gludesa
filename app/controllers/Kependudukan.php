@@ -20,14 +20,14 @@ class Kependudukan extends Controller {
         //new model instance
         
     }
-    public function index(){
-        $data = [
-            'modul' => 'Info Desa',
-            'page' => 'Identitas',
-            'title' => 'GluDesa - Indentitas',
-        ];
-        $this->view('pages/info/indentitas', $data);
-    }
+    // public function index(){
+    //     $data = [
+    //         'modul' => 'Info Desa',
+    //         'page' => 'Identitas',
+    //         'title' => 'GluDesa - Indentitas',
+    //     ];
+    //     $this->view('pages/info/indentitas', $data);
+    // }
 
     public function penduduk()
     {

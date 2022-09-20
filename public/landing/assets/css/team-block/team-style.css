@@ -1,0 +1,57 @@
+.team-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.teambox-overlay{
+    background-color: #1a4d2e2a;
+    height: 500px;
+    transition: all 0.5s ease-in-out;
+}
+
+.teambox-overlay:hover{
+    background-color: #1a4d2e8f;
+}
+
+.teambox-content{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    bottom: -35%;
+    background-color: var(--primary-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.team-box:hover .teambox-content{
+    bottom: 0;
+}
+
+.teambox-contact{
+    position: absolute;
+    top: 35px;
+    right: -30%;
+    transition: all 0.5s ease-in-out;
+}
+
+.team-box:hover .teambox-contact{
+    right: 35px;
+}
+
+.teambox-contact > ul > li{
+    display: block;
+}
+
+.teambox-contact > ul > li > a > span{
+    margin-right: 0px;
+    margin-bottom: 15px;
+    background-color: var(--secondary-color);
+}
+
+.teambox-contact > ul > li > a > span:hover{
+    color: var(--primary-color);
+    background-color: white;
+}

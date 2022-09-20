@@ -1,0 +1,31 @@
+.row.ft-row-top{
+    margin-bottom: 50px !important;
+}
+
+.first-ft-col > p , .ft-row-top > div > ul{
+    margin-top: 20px;
+}
+
+.footer-logo > a > img{
+    width: 50%;
+    max-width: 100%;
+}
+
+.ct-footer > div > div > ul > li > a{
+    color: var(--text-body-color);
+}
+
+.ct-footer > div > div > ul > li > a:hover{
+    color: var(--secondary-color);
+}
+
+.ft-row-bottom > div > ul , .ft-row-bottom > div > ul > li > a > span{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+@media (min-width: 992px){
+    .first-ft-col{
+        padding-right: 20%;
+    }
+}

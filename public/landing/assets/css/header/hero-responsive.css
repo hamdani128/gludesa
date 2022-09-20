@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {
+    .inner-slider-content{
+        width: 75%;
+    }
+}
+
+@media(max-width: 992px){
+    .inner-slider-content{
+        width: 85%;
+        padding-top: 75px;
+        padding-bottom: 125px;
+    }
+
+    .hb-slider-overlay{
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width: 768px){
+    .inner-slider-content{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+}

@@ -1,0 +1,9 @@
+@media (max-width: 992px){
+    .quote-block > div > div > div > div {
+        padding: 0px !important;
+    }
+
+    .image-quote > img{
+        margin-top: -50px;
+    }
+}

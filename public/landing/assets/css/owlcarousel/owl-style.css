@@ -1,0 +1,99 @@
+/* -- Hero Navigation Owl Carousel -- */
+
+.hero-block-slider > .owl-nav{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    
+}
+
+.hero-block-slider > .owl-nav > button.owl-next i{
+    right: 0%;
+}
+
+.hero-block-slider > .owl-nav > button.owl-prev i{
+    left: 0%;
+}
+
+.hero-block-slider > .owl-nav > button.owl-next i , .hero-block-slider > .owl-nav > button.owl-prev i{
+    font-size: 25px;
+    background-color: white;
+    color: var(--primary-color);
+    opacity: 0;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px 20px;
+    z-index: 9;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-block-slider:hover button.owl-next i{
+    opacity: 0.5;
+    right: 20px;
+}
+
+.hero-block-slider:hover button.owl-prev i{
+    opacity: 0.5;
+    left: 20px;
+}
+
+.hero-block-slider > .owl-nav > button.owl-next i:hover , .hero-block-slider > .owl-nav > button.owl-prev i:hover{
+    background-color: white;
+    color: var(--primary-color);
+    opacity: 1 !important;
+}
+
+/* -- Testimonials Navigation Owl Carousel -- */
+
+
+.testimonials-slider > .owl-nav{
+    width: 100%;
+    position: absolute;
+    top: -100px;
+    left: auto;
+    margin-top: -20px;
+    
+}
+
+.testimonials-slider > .owl-nav > button.owl-next i , .testimonials-slider > .owl-nav > button.owl-prev i{
+    font-size: 25px;
+    background-color: var(--primary-color);
+    color: white;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px 20px;
+    z-index: 9;
+    transition: all 0.3s ease-in-out;
+}
+
+.testimonials-slider > .owl-nav > button.owl-next i{
+    right: 0;
+}
+
+.testimonials-slider > .owl-nav > button.owl-prev i{
+    right: 70px;
+}
+
+.testimonials-slider > .owl-nav > button.owl-next i:hover , .testimonials-slider > .owl-nav > button.owl-prev i:hover{
+    background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px){
+
+    .testimonials-slider{
+        margin-top: 100px;
+    }
+
+    .testimonials-slider > .owl-nav > button.owl-next i{
+        top: 50px;
+        left: 70px;
+        right: auto;
+    }
+    
+    .testimonials-slider > .owl-nav > button.owl-prev i{
+        top: 50px;
+        left: 0;
+        right: auto;
+    }
+}

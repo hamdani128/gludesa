@@ -1,0 +1,69 @@
+.stats-section{
+    margin-top: -50px;
+}
+
+.inner-stats-sections{
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    z-index: 2 !important;
+}
+
+.counter-box{
+    position: relative;
+    background-color: white;
+    height: 290px;
+    transition: all 0.2s ease-in-out;
+}
+
+.counter-box-content{
+    z-index: 2;
+}
+
+h2.counter-stats.plus::after , h2.counter-stats.years::after{
+    font-family: var(--font-primary);
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--text-body-color);
+    position: absolute;
+    display: inline;
+    margin-top: -10px;
+    margin-left: 10px;
+    transition-delay: 0.25s;
+}
+
+h2.counter-stats.plus::after{
+    content: '+';
+}
+
+h2.counter-stats.years::after{
+    content: 'Y';
+}
+
+.counter-info > h5 , .counter-info > p{
+    transition-delay: 0.25s;
+}
+
+.counter-info{
+    margin-top: 15px;
+}
+
+.counter-box:hover h2.counter-stats.plus::after{
+    color: var(--text-white-transparent);
+    transition-delay: 0.25s;
+}
+
+.counter-box:hover h2.counter-stats.years::after{
+    color: var(--text-white-transparent);
+    transition-delay: 0.25s;
+}
+
+.counter-box:hover .counter-info > h5{
+    color: white;
+    transition-delay: 0.25s;
+}
+
+.counter-box:hover .counter-info > p{
+    color: var(--text-white-transparent);
+    transition-delay: 0.25s;
+}

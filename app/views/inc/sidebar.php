@@ -29,7 +29,7 @@
                         </svg>
                         <span class="ms-2">Inbox </span>
                     </a>
-                    <a href="page-error-404.html" class="dropdown-item ai-icon">
+                    <a href="<?= URLROOT ?>/users/logout" class="dropdown-item ai-icon">
                         <svg id="icon-logout" xmlns="http://www.w3.org/2000/svg" class="text-danger" width="18"
                             height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
@@ -132,8 +132,8 @@
                 </a>
                 <ul aria-expanded="false">
                     <li><a href="<?= URLROOT ?>/sekretariat/informasi_publik">Informasi Publik</a></li>
-                    <li><a href="<?= URLROOT ?>/sekretariat/iventaris_asset"">Inventaris</a></li>
-                    <li><a href=" #">Klasisfikasi Surat</a></li>
+                    <li><a href="<?= URLROOT ?>/sekretariat/iventaris_asset">Inventaris</a></li>
+                    <li><a href="<?= URLROOT ?>/sekretariat/klasifikasi_surat">Klasisfikasi Surat</a></li>
                 </ul>
             </li>
             <li>
@@ -142,7 +142,7 @@
                     <span class="nav-text">Buku Adm.Desa</span>
                 </a>
                 <ul aria-expanded="false">
-                    <li><a href="#">Administrasi Umum</a></li>
+                    <li><a href="<?= URLROOT ?>/administrasi/administrasi_umum">Administrasi Umum</a></li>
                     <li><a href="#">Administrasi Penduduk</a></li>
                     <li><a href="#">Administrasi Pembangunan</a></li>
                     <li><a href="#">Arsip Desa</a></li>

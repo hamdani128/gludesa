@@ -1,0 +1,63 @@
+.container.ct-first.testimonials-block-section{
+    padding-bottom: 150px;
+}
+
+.testimonials-slider{
+    border-radius: 5px;
+}
+
+.testimonials-box{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.testimonials-box > i , .testimonials-box > p , .testimonials-box > div.client-info > div > img , .testimonials-box > div.client-info > .client-text > h6 , .testimonials-box > div > .client-text > p{
+    position: relative;
+    z-index: 2;
+    transition-delay: 0.25s;
+}
+
+.testimonials-box:hover p.testimonials-text{
+    color: var(--text-white-transparent) !important;
+    transition-delay: 0.25s;
+}
+
+.testimonials-box:hover .client-text > h6{
+    color: white;
+    transition-delay: 0.25s;
+}
+
+.testimonials-box:hover .client-text > p{
+    color: var(--secondary-color)
+}
+
+.testimonials-box > i{
+    margin-bottom: 15px;
+}
+
+.client-info > div.client-image > img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.client-info > div.client-image{
+    width: auto;
+    max-width: 100%;
+    margin-right: 7px;
+}
+
+.client-info > div.client-text{
+    width: auto;
+    max-width: 100%;
+    margin-left: 7px;
+}
+
+.client-text > h6{
+    margin-bottom: 7px;
+}
+
+.client-text > p{
+    margin: 0px;
+}

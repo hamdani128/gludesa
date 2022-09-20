@@ -1,0 +1,5 @@
+@media (max-width: 992px){
+    .container.ct-first.testimonials-block-section{
+        padding-bottom: 100px !important;
+    }
+}

@@ -1,0 +1,38 @@
+.about-image-left , .about-image-right{
+    width: 50%;
+    max-width: 100%;
+}
+
+.about-image-left{
+    padding-right: 15px;
+}
+
+.about-image-left img , .about-image-right img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.about-image-right{
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.icon-list-left , .icon-list-right{
+    width: 50%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.about-button{
+    width: 100%;
+}
+
+.about-button > .play-button-small{
+    margin-left: 30px;
+}
+
+.about-button > span{
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
